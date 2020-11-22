@@ -1,8 +1,7 @@
 {
     "compilerOptions": {
         "declaration": true,
-        "outDir": "./dist",
-        
+        "outDir": "./dist"
     },
     "exclude": ["**/**.spec.ts","dist","webpack.config.js"],
 }

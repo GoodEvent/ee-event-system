@@ -68,7 +68,8 @@ module.exports = function (config) {
     concurrency: Infinity,
     karmaTypescriptConfig: {
       "compilerOptions": {
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "target": "ESNext"
       }
     },
   })
