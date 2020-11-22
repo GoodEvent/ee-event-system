@@ -151,8 +151,8 @@ export function getEventPath(event: Event): EventTarget[] {
             path.push(target);
             target = target.parentNode as HTMLElement;
         }
-        this.path.push(document, window);
-        return this.path;
+        path.push(document, window);
+        return path;
     }
 }
 
