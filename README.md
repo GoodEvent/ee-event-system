@@ -19,7 +19,7 @@ export class Header extends HTMLElement {
     }
 
     foo2(){
-        console.log('capture foo2 work!');
+        console.log('capture work!');
     }
 
     render() {
