@@ -28,9 +28,9 @@ export function scheduler(e: Event, capture: boolean, syntheticEvent: SyntheticE
                 instance[method](...args);
             };
             let fakeElement = document.createElement('EeNode');
-            let tirggerEvent = buildTirggerEvent(e);
+            let triggerEvent = buildTirggerEvent(e);
             fakeElement.addEventListener(e.type, listener, capture);
-            fakeElement.dispatchEvent(tirggerEvent);
+            fakeElement.dispatchEvent(triggerEvent);
             fakeElement.removeEventListener(e.type, listener, capture);
         }
         syntheticEvent.isStopPropagation = false; 
@@ -43,9 +43,9 @@ export function scheduler(e: Event, capture: boolean, syntheticEvent: SyntheticE
                 instance[method](...args);
             };
             let fakeElement = document.createElement('EeNode');
-            let tirggerEvent = buildTirggerEvent(e);
+            let triggerEvent = buildTirggerEvent(e);
             fakeElement.addEventListener(e.type, listener, capture);
-            fakeElement.dispatchEvent(tirggerEvent);
+            fakeElement.dispatchEvent(triggerEvent);
             fakeElement.removeEventListener(e.type, listener, capture);
         }
     }
