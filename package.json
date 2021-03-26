@@ -8,6 +8,7 @@
     "test": "karma start",
     "build": "webpack --config webpack.config.js"
   },
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/HotEvent/hee-event-system.git"
