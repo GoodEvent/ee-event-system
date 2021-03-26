@@ -1,6 +1,6 @@
 {
   "name": "hee-event-system",
-  "version": "1.0.2-alpha",
+  "version": "1.0.3-alpha",
   "description": "",
   "main": "dist/hee-event-system.js",
   "typings": "dist/index.d.ts",
